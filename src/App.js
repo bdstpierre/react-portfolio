@@ -6,7 +6,7 @@ import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import portfolio from './components/websites';
+import portfolio from './components/portfolio_data';
 
 function App() {
   return (
@@ -14,9 +14,9 @@ function App() {
       <header className="App-header">
         <Header />
       </header>
-      <body className="container">
-        <Portfolio portfolio={portfolio} />
-      </body>
+      <div className="container">
+        <Resume portfolio={portfolio} />
+      </div>
     </div>
   );
 }

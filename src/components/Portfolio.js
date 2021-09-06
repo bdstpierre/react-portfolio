@@ -2,17 +2,16 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Portfolio(props) {
-  const message = 'This is the Portfolio Component';
-  const websites = props.portfolio;
+  const sites = props.portfolio.sites;
 
   return (
     <div id="portfolio" className="container-fluid text-center bg-grey" >
       <h2>Portfolio</h2>
       <h4>Samples of my work</h4>
       <div className="row text-center">
-        {websites.map((site) => (
-          <div className="col-sm-4">
-            <div className="thumbnail" key={site.id}>
+        {sites.map((site) => (
+          <div className="col-sm-4" key={site.id}>
+            <div className="thumbnail">
               <h3>{site.name}</h3>
               <p>{site.description}</p>
               <img src={`./images/${site.thumbnail}`} alt="Site thumbnail"></img>
