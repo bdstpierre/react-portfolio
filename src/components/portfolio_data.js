@@ -378,6 +378,45 @@ const portfolio =
                 },
             ],
         }
+    ],
+    footer: 
+    [
+        // {
+        //     id: "301",
+        //     glyph: "glyphicon glyphicon-envelope",
+        //     name: "email",
+        //     value: "barry@stpierre.com",
+        //     ref: "mailto:barry@stpierre.com",
+        // },
+        // {
+        //     id: "302",
+        //     glyph: "glyphicon glyphicon-phone",
+        //     name: "phone",
+        //     value: "734-657-7730",
+        //     ref: "tel:+1-734-657-7730",
+        // },
+        {
+            id: "303",
+            img: "./images/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png",
+            name: "github",
+            value: "bdstpierre",
+            ref: "https://github.com/bdstpierre/",
+        },
+        {
+            id: "304",
+            img: "./images/linkedin-logo-png-2035.png",
+            name: "LinkedIn",
+            value: "barry-st-pierre",
+            ref: "https://www.linkedin.com/in/barry-st-pierre/",
+        },
+        {
+            id: "305",
+            img: "./images/twitter-green.png",
+            name: "twitter",
+            value: "@barrystpierre",
+            ref: "https://twitter.com/barrystpierre",
+        },
+        
     ]
 }
 

@@ -4,6 +4,7 @@ import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import portfolio from './components/portfolio_data';
@@ -16,6 +17,9 @@ function App() {
       </header>
       <div className="container">
         <Skills portfolio={portfolio}/>
+      </div>
+      <div>
+        <Footer portfolio={portfolio}/>
       </div>
     </div>
   );
