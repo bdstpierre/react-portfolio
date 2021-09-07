@@ -15,7 +15,7 @@ function App() {
         <Header />
       </header>
       <div className="container">
-        <Resume portfolio={portfolio} />
+        <About />
       </div>
     </div>
   );

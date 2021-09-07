@@ -17,7 +17,7 @@ function Resume(props) {
         <div className="row">
 
           <Work work={work} />
-          {/* <Education education={education} /> */}
+          <Education education={education} />
         </div>
       </div>
     </div>
