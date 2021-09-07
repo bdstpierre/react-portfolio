@@ -219,7 +219,8 @@ const portfolio =
     [
         {
             id: "110",
-            category: "cae", 
+            category: "CAE", 
+            glyph: "logo-small glyphicon glyphicon-pencil",
             items: [
                 { 
                     id: "111",
@@ -241,7 +242,8 @@ const portfolio =
         },
         {
             id: "120",
-            category: "testing",
+            category: "Testing",
+            glyph: "logo-small glyphicon glyphicon-search",
             items: [
                 {
                     id: "121",
@@ -260,6 +262,7 @@ const portfolio =
         {
             id: "130",
             category: "Homologation",
+            glyph: "logo-small glyphicon glyphicon-lock",
             items: [
                 {
                     id: "131",
@@ -286,6 +289,7 @@ const portfolio =
         {
             id: "140",
             category: "Programming",
+            glyph: "logo-small glyphicon glyphicon-leaf",
             items: [
                 {
                     id: "141",
@@ -304,6 +308,7 @@ const portfolio =
         {
             id: "150",
             category: "Databases",
+            glyph: "logo-small glyphicon glyphicon-certificate",
             items: [
                 {
                     id: "151",
@@ -322,6 +327,7 @@ const portfolio =
         {
             id: "160",
             category: "General Office",
+            glyph: "logo-small glyphicon glyphicon-wrench",
             items: [
                 {
                     id: "161",

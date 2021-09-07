@@ -2,6 +2,8 @@ import React from 'react';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Education(props) {
+    // This may need to be:
+    // const education = props.portfolio.education;
     const education = props.education;
 
     return (
