@@ -214,6 +214,164 @@ const portfolio =
             description: "Studied mechanical engineering with an emphasis on Computer Aided Design and Computer Aided Manufacturing. (Graduated as a memebr of the Honor's College.)",
             dates: "1981-1985"
         },
+    ],
+    skills:
+    [
+        {
+            id: "110",
+            category: "cae", 
+            items: [
+                { 
+                    id: "111",
+                    skill: "NASTRAN",
+                },
+                {
+                    id: "112",
+                    skill: "HyperMesh",
+                },
+                {
+                    id: "113",
+                    skill: "Abaqus",
+                },
+                {
+                    id: "114",
+                    skill: "3DEXPERIENCE",
+                },
+            ],
+        },
+        {
+            id: "120",
+            category: "testing",
+            items: [
+                {
+                    id: "121",
+                    skill: "Brake performance",
+                },
+                {
+                    id: "122",
+                    skill: "Structural stiffness",
+                },
+                {
+                    id: "123",
+                    skill: "Vibration",
+                },
+            ],
+        },
+        {
+            id: "130",
+            category: "Homologation",
+            items: [
+                {
+                    id: "131",
+                    skill: "Brake performance",
+                },
+                {
+                    id: "132",
+                    skill: "US FMVSS Scooters",
+                },
+                {
+                    id: "133",
+                    skill: "US VIN registration",
+                },
+                {
+                    id: "134",
+                    skill: "Euro3 L1B certification",
+                },
+                {
+                    id: "135",
+                    skill: "Euro4 L1B certification",
+                },
+            ]
+        },
+        {
+            id: "140",
+            category: "Programming",
+            items: [
+                {
+                    id: "141",
+                    skill: "PHP",
+                },
+                {
+                    id: "142",
+                    skill: "MATLAB",
+                },
+                {
+                    id: "143",
+                    skill: "Javascript",
+                },
+            ],
+        },
+        {
+            id: "150",
+            category: "Databases",
+            items: [
+                {
+                    id: "151",
+                    skill: "MySQL",
+                },
+                {
+                    id: "152",
+                    skill: "MongoDB/Mongoose",
+                },
+                {
+                    id: "153",
+                    skill: "IndexedDB",
+                },
+            ],
+        },
+        {
+            id: "160",
+            category: "General Office",
+            items: [
+                {
+                    id: "161",
+                    skill: "Microsoft Office",
+                },
+                {
+                    id: "162",
+                    skill: "Microsoft Windows",
+                },
+                {
+                    id: "163",
+                    skill: "Adobe Suite",
+                },
+                {
+                    id: "164",
+                    skill: "Apple MacOS",
+                },
+            ],
+        },
+    ],
+    about:
+    [
+        {
+            id: "201",
+            title: "About Barry St. Pierre",
+            subtitle: "Over 35 years of engineering excellence",
+            glyph: "glyphicon glyphicon-cog logo",
+            paras: [
+                {
+                    id: "210",
+                    text: "I have worked in the engineering field for over 35 years covering testing, computer analysis, design, and homologation. I have worked for the Navy on structural acoustics, I have worked on active noise control, and I have worked in transportation from heavy trucks, light trucks, passenger vehicles and electric scooters.",
+                },
+                {
+                    id: "220",
+                    text: "Throughout my career I have used programming to help me get my work done. This has included writing scripts to process data using MATLAB or Python, writing UNIX scripts to process text files to extract data, and using PHP to create websites for sharing information and organizing groups of people.",
+                },
+            ],
+        },
+        {
+            id: "202",
+            title: "Looking to the future",
+            subtitle: "Formalizing my programming experience",
+            glyph: "glyphicon glyphicon-certificate logo",
+            paras: [
+                {
+                    id: "230",
+                    text: "I have always had a desire formalize my programming education so I recently registeered for a Full Stack Web Development bootcamp offered at Michigan State Univasity through Trilogy Education Services.  In teh bootcamp I learning about various webdevelopment technology including HTML, CSS, Javascript (for front end and back end), using third-party APIs, Node.js, express, MySQL, NoSQL (MongoDB, Mongoose, indexedDB), Progressive Web Applications (Manifest, Service Workers, Caching files and data for offline use), and managing state using graphql.",
+                },
+            ],
+        }
     ]
 }
 

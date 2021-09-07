@@ -15,7 +15,7 @@ function App() {
         <Header />
       </header>
       <div className="container">
-        <About />
+        <About portfolio={portfolio}/>
       </div>
     </div>
   );
