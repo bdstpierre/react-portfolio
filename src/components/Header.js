@@ -1,22 +1,13 @@
 import React from 'react';
+import Navigation from './Navigation';
 import headShot from './profile2.jpg';
 
 function Header({currentPage, handlePageChange}) {
 
     return(
+        
         <div className="row">
-            <nav className="nav nav-pills flex-column flex-sm-row">
-                            <a className={currentPage === 'About' ? 'flex-sm-fill text-sm-center nav-link active' : 'flex-sm-fill text-sm-center nav-link'} aria-current="page" href="#about" onClick={() => handlePageChange('About')}>About</a>
-
-                            <a className={currentPage === 'Skills' ? 'flex-sm-fill text-sm-center nav-link active' : 'flex-sm-fill text-sm-center nav-link'} href="#skills" onClick={() => handlePageChange('Skills')}>SKILLS</a>
-
-                            <a className={currentPage === 'Portfolio' ? 'flex-sm-fill text-sm-center nav-link active' : 'flex-sm-fill text-sm-center nav-link'} href="#portfolio" onClick={() => handlePageChange('Portfolio')}>PORTFOLIO</a>
-
-                            <a className={currentPage === 'Resume' ? 'flex-sm-fill text-sm-center nav-link active' : 'flex-sm-fill text-sm-center nav-link'} href="#resume" onClick={() => handlePageChange('Resume')} >RESUME</a>
-
-                            <a className={currentPage === 'Contact' ? 'flex-sm-fill text-sm-center nav-link active' : 'flex-sm-fill text-sm-center nav-link'} href="#contact" onClick={() => handlePageChange('Contact')} >CONTACT</a>
-
-            </nav>            
+            <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />          
             <div className="jumbotron text-center">
                 <div className="row">
                     <div className="col-sm-3">

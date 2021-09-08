@@ -8,7 +8,7 @@ function Resume(props) {
 
   return (
     <div className="container">
-      <div id="resume" className="container-fluid" >
+      <div className="container-fluid" >
         <div className="text-center">
           <h2>Resume</h2>
           <h6><a href="./images/bstpierre_resume.pdf">Download the resume as a PDF</a></h6>

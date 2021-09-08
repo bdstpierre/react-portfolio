@@ -5,7 +5,7 @@ function Portfolio(props) {
   const sites = props.portfolio.sites;
 
   return (
-    <div id="portfolio" className="container-fluid text-center bg-grey" >
+    <div className="container-fluid text-center bg-grey" >
       <h2>Portfolio</h2>
       <h4>Samples of my work</h4>
       <div className="row text-center">
