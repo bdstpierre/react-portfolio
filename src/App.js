@@ -16,7 +16,7 @@ function App() {
         <Header />
       </header>
       <div className="container">
-        <Skills portfolio={portfolio}/>
+        <Contact />
       </div>
       <div>
         <Footer portfolio={portfolio}/>
