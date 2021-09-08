@@ -40,6 +40,13 @@ img.icon {
   width: 32px;
 }
 
+img.headshot {
+  border: 0px;
+  border-style: solid;
+  border-color: var(--shadow-color);
+  width: 128px;
+}
+
 .styled-list {
   list-style-type: disc !important;
   padding-left:1em !important;
@@ -48,8 +55,8 @@ img.icon {
 
 .jumbotron {
   background-color: var(--dark-color);
-  color: var(var(--light-color));
-  padding: 100px 25px;
+  color: var(--bright-color);
+  padding: 25px 25px;
   font-family: Montserrat, sans-serif;
 }
 
@@ -158,31 +165,40 @@ img.icon {
   color: var(--light-color);
 }
 
-.navbar {
+.nav {
   margin-bottom: 0;
   background-color: var(--bright-color);
   z-index: 9999;
   border: 0;
-  font-size: 12px !important;
-  line-height: 1.42857143 !important;
+  font-size: 24px !important;
+  line-height: 36px !important;
   letter-spacing: 4px;
   border-radius: 0;
   font-family: Montserrat, sans-serif;
 }
 
-.navbar li a, .navbar .navbar-brand {
-  color: var(--light-color) !important;
+.nav-link {
+  color: var(--light-color);
 }
 
-.navbar-nav li a:hover, .navbar-nav li.active a {
+.nav-link:hover  {
+  color: var(--bright-color) !important;
+  background-color: var(--light-color);
+}
+
+.nav-pills .show>.nav-link, .nav-pills .nav-link.active {
   color: var(--bright-color) !important;
   background-color: var(--light-color) !important;
 }
 
-.navbar-default .navbar-toggle {
+.nav-pills .nav-link {
+  border-radius: 0px;
+}
+
+/* .nav {
   border-color: transparent;
   color: var(--light-color) !important;
-}
+} */
 
 footer .glyphicon {
   font-size: 20px;
