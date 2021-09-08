@@ -4,7 +4,7 @@
 
 I created this app for two purposes: 1) to practice using react to create a webpage and 2) to create a website that highlights my professional career in a stylish and interesting way.  
 
-Visit the github repo: https://bdstpierre.github.io/Portfolio2/
+Visit the github repo: https://github.com/bdstpierre/react-portfolio
 
 Visit the webiste: https://bdstpierre.github.io/react-portfolio/
 
