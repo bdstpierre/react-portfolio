@@ -7,21 +7,21 @@ function Work(props) {
         <>
             {work.map((item) => (
                 <div className="col-sm-12" key={item.id}>
-                    <div className="panel panel-default text-center">
-                            <div className="panel-heading">
+                    <div className="card">
+                            <div className="card-header">
                                 <h1>{item.company}</h1>
                                 <h4>{item.address}</h4>
                             </div>
-                            <div className="panel-body">
-                                <ul className="styled-list">
+                            <div className="card-body">
+                                <ul className="list-group list-group-flush">
                                     {item.tasks.map((task) => (
-                                        <li key={task.task_id}>
+                                        <li className="list-group-item" key={task.task_id}>
                                             {task.task_description}
                                         </li>
                                     ))}
                                 </ul>
                             </div>
-                            <div className="panel-footer">
+                            <div className="card-footer">
                                 <h3>{item.title}</h3>
                                 <h4>{item.dates}</h4>
                             </div>

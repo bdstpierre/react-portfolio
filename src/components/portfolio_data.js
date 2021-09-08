@@ -220,7 +220,7 @@ const portfolio =
         {
             id: "110",
             category: "CAE", 
-            glyph: "logo-small glyphicon glyphicon-pencil",
+            glyph: "fas fa-keyboard logo-small",
             items: [
                 { 
                     id: "111",
@@ -243,7 +243,7 @@ const portfolio =
         {
             id: "120",
             category: "Testing",
-            glyph: "logo-small glyphicon glyphicon-search",
+            glyph: "logo-small fas fa-microscope",
             items: [
                 {
                     id: "121",
@@ -262,7 +262,7 @@ const portfolio =
         {
             id: "130",
             category: "Homologation",
-            glyph: "logo-small glyphicon glyphicon-lock",
+            glyph: "logo-small fas fa-clipboard-check",
             items: [
                 {
                     id: "131",
@@ -289,7 +289,7 @@ const portfolio =
         {
             id: "140",
             category: "Programming",
-            glyph: "logo-small glyphicon glyphicon-leaf",
+            glyph: "fas fa-laptop-code logo-small",
             items: [
                 {
                     id: "141",
@@ -308,7 +308,7 @@ const portfolio =
         {
             id: "150",
             category: "Databases",
-            glyph: "logo-small glyphicon glyphicon-certificate",
+            glyph: "logo-small fas fa-database",
             items: [
                 {
                     id: "151",
@@ -327,7 +327,7 @@ const portfolio =
         {
             id: "160",
             category: "General Office",
-            glyph: "logo-small glyphicon glyphicon-wrench",
+            glyph: "logo-small fas fa-briefcase",
             items: [
                 {
                     id: "161",
@@ -354,7 +354,7 @@ const portfolio =
             id: "201",
             title: "About Barry St. Pierre",
             subtitle: "Over 35 years of engineering excellence",
-            glyph: "glyphicon glyphicon-cog logo",
+            glyph: "fas fa-cog logo",
             paras: [
                 {
                     id: "210",
@@ -370,7 +370,7 @@ const portfolio =
             id: "202",
             title: "Looking to the future",
             subtitle: "Formalizing my programming experience",
-            glyph: "glyphicon glyphicon-certificate logo",
+            glyph: "fas fa-certificate logo",
             paras: [
                 {
                     id: "230",

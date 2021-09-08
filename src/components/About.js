@@ -4,12 +4,12 @@ function About(props) {
     const about = props.portfolio.about;
 
   return (
-    <div className="container">
-          <div id="about" className="container-fluid">
-        <div className="row">
-            {about.map((item) => (
-                <div key={item.id}>
-                    <div className="col-sm-8 text-left">
+    <div  className="container-fluid">
+        {about.map((item) => (
+            (item.id % 2)
+            ?
+                <div className="row" key={item.id}>
+                    <div className="col-sm-8 text-sm-start">
                         <h2>{item.title}</h2>
                         <h4>{item.subtitle}</h4>
                         {item.paras.map((para) => (
@@ -22,9 +22,24 @@ function About(props) {
                         <span className={item.glyph}></span>
                     </div>
                 </div>
-            ))}
-        </div>
-    </div>
+            :
+                <div className="row" key={item.id}>
+                    <div className="col-sm-4">
+                        <span className={item.glyph}></span>
+                    </div>                        
+                    <div className="col-sm-8 text-sm-start">
+                        <h2>{item.title}</h2>
+                        <h4>{item.subtitle}</h4>
+                        {item.paras.map((para) => (
+                            <p key={para.id}>
+                                {para.text}
+                            </p>
+                        ))}
+                    </div>
+                </div>
+            
+            
+        ))}
     </div>
   );
 }

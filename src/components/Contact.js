@@ -66,68 +66,71 @@ function Contact() {
   return (
     <div className="row">
       <div className="col-sm-12">
-        <div className="panel panel-default text-center">
-          <h3>{errorMessage ? errorMessage : "Fill in the form to send a message..."}</h3>
-          <form className="form">
-            <div className="form-group row">
-              <label htmlFor="fullName" className="col-sm-2 col-form-label">
-                Full Name:
-              </label>
-              <div className="col-sm-10">
-                <input
-                  className="form-control"
-                  id="fullName"
-                  value={Name}
-                  name="Name"
-                  onChange={handleInputChange}
-                  onBlur={validateInput}
-                  type="text"
-                  placeholder="Full Name"
-                />
+        <div className="card">
+          <div className="card-title">
+            <h3>{errorMessage ? errorMessage : "Fill in the form to send a message..."}</h3>
+          </div>
+          <div className="card-body">
+            <form className="form">
+              <div className="form-group row">
+                <label htmlFor="fullName" className="col-sm-2 col-form-label">
+                  Full Name:
+                </label>
+                <div className="col-sm-10">
+                  <input
+                    className="form-control"
+                    id="fullName"
+                    value={Name}
+                    name="Name"
+                    onChange={handleInputChange}
+                    onBlur={validateInput}
+                    type="text"
+                    placeholder="Full Name"
+                  />
+                </div>
               </div>
-            </div>
-            <div className="form-group row">
-              <label htmlFor="emailAddress" className="col-sm-2 col-form-label">
-                Email Address:
-              </label>
-              <div className="col-sm-10">
-                <input
-                  className="form-control"
-                  id="emailAddress"
-                  value={Email}
-                  name="Email"
-                  onChange={handleInputChange}
-                  onBlur={validateInput}
-                  type="text"
-                  placeholder="name@email.com"
-                />
+              <div className="form-group row">
+                <label htmlFor="emailAddress" className="col-sm-2 col-form-label">
+                  Email Address:
+                </label>
+                <div className="col-sm-10">
+                  <input
+                    className="form-control"
+                    id="emailAddress"
+                    value={Email}
+                    name="Email"
+                    onChange={handleInputChange}
+                    onBlur={validateInput}
+                    type="text"
+                    placeholder="name@email.com"
+                  />
+                </div>
               </div>
-            </div>
-            <div className="form-group row">
-              <label htmlFor="messageText" className="col-sm-2 col-form-label">
-                Message:
-              </label>
-              <div className="col-sm-10">
-                <textarea
-                  className="form-control"
-                  id="messageText"
-                  value={Message}
-                  name="Message"
-                  onChange={handleInputChange}
-                  onBlur={validateInput}
-                  placeholder="Enter message here..."
-                />
+              <div className="form-group row">
+                <label htmlFor="messageText" className="col-sm-2 col-form-label">
+                  Message:
+                </label>
+                <div className="col-sm-10">
+                  <textarea
+                    className="form-control"
+                    id="messageText"
+                    value={Message}
+                    name="Message"
+                    onChange={handleInputChange}
+                    onBlur={validateInput}
+                    placeholder="Enter message here..."
+                  />
+                </div>
               </div>
-            </div>
-            <div className="form-group row">
-              <div className="col-sm-10">
-                <button type="submit" className="btn btn-primary" onClick={handleFormSubmit}>
-                  Submit
-                </button>
+              <div className="form-group row">
+                <div className="col-sm-10">
+                  <button type="submit" className="btn" onClick={handleFormSubmit}>
+                    Submit
+                  </button>
+                </div>
               </div>
-            </div>
-          </form>
-
+            </form>
+          </div>
         </div>
       </div>
     </div>

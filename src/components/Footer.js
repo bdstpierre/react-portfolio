@@ -4,7 +4,7 @@ function Footer(props) {
     const contacts = props.portfolio.footer;
 
     return (
-        <div className="row">
+        <div className="row footer">
             {contacts.map((contact) => (
                 <div className="col-sm-4" key={contact.id}>
                     {contact.glyph 

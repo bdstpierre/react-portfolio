@@ -6,15 +6,17 @@ function Skills(props) {
   console.log(skills);
 
   return (
-    <div className="container">
-      <div id="skills" className="container-fluid text-center">
+
+    <div className="container-fluid text-center">
       <h2>Skills</h2>
       <h4>What I offer</h4>
       <br />
       <div className="row">
         {skills.map((skill) => (
           <div className="col-sm-4" key={skill.id}>
+          <div>
             <span className={skill.glyph}></span>
+            </div>
             <h4>{skill.category}</h4>
             <ul className="list-unstyled">
               {skill.items.map((item) => (
@@ -26,8 +28,7 @@ function Skills(props) {
           </div>
         ))}
       </div>
-
-      </div>    
+   
     </div>
   );
 }
