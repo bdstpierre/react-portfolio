@@ -400,21 +400,21 @@ const portfolio =
             img: "./images/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png",
             name: "github",
             value: "bdstpierre",
-            ref: "https://github.com/bdstpierre/",
+            href: "https://github.com/bdstpierre/",
         },
         {
             id: "304",
             img: "./images/linkedin-logo-png-2035.png",
             name: "LinkedIn",
             value: "barry-st-pierre",
-            ref: "https://www.linkedin.com/in/barry-st-pierre/",
+            href: "https://www.linkedin.com/in/barry-st-pierre/",
         },
         {
             id: "305",
             img: "./images/twitter-green.png",
             name: "twitter",
             value: "@barrystpierre",
-            ref: "https://twitter.com/barrystpierre",
+            href: "https://twitter.com/barrystpierre",
         },
         
     ]

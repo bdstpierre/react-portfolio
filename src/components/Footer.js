@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer(props) {
     const contacts = props.portfolio.footer;
-
+console.log(contacts);
     return (
         <div className="row footer">
             {contacts.map((contact) => (
