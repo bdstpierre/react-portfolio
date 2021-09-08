@@ -1,3 +1,4 @@
+import React, { useState } from 'react'
 import Header from './components/Header';
 import About from './components/About';
 import Skills from './components/Skills';
@@ -10,13 +11,36 @@ import './App.css';
 import portfolio from './components/portfolio_data';
 
 function App() {
+
+  const [currentPage, setCurrentPage] = useState('About')
+
+  const renderPage = () => {
+    if (currentPage === 'About') {
+      return <About portfolio={portfolio}/>
+    }
+    if (currentPage === 'Skills') {
+      return <Skills portfolio={portfolio}/>
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio portfolio={portfolio}/>
+    }
+    if (currentPage === 'Resume') {
+      return <Resume portfolio={portfolio}/>
+    }
+
+    return <Contact portfolio={portfolio}/>
+    
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
     <div className="App">
       <header className="App-header">
-        <Header />
+        <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       </header>
       <div className="container">
-        <Contact />
+        {renderPage()}
       </div>
       <div>
         <Footer portfolio={portfolio}/>
