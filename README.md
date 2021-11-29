@@ -6,7 +6,7 @@ I created this app for two purposes: 1) to practice using react to create a webp
 
 Visit the github repo: https://github.com/bdstpierre/react-portfolio
 
-Visit the webiste: https://bdstpierre.github.io/react-portfolio/
+Visit the website: https://bdstpierre.github.io/react-portfolio/
 
 ![Screenshot of the apllication or project](./public/images/react-portfolio.png)
 ## Table of Contents
